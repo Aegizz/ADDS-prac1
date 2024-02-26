@@ -5,6 +5,7 @@ using namespace std;
 
 
 char Human::makeMove(){
+    cout << "Enter move: ";
     cin >> move; 
     return move;
 }

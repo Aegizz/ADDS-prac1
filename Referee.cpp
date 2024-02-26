@@ -12,23 +12,23 @@ Player * Referee::refGame(Player * player1, Player * player2){
         move2 = player2->makeMove();
     }
     if (move1 == move2){
-        cout << "Tie";
+        cout << "It's a Tie.";
         return NULL;
     }
     if (move1 == 'R' && move2 == 'S'){
-        cout << player1->getName();
+        cout << player1->getName() << " wins.\n";
         return player1;
         
     } else if (move1 == 'S' && move2 == 'P'){
-        cout << player1->getName();
+        cout << player1->getName() << " wins.\n";
         return player1;
         
     } else if (move1 == 'P' && move2 == 'R'){
-        cout << player1->getName();
+        cout << player1->getName() << " wins.\n";
         return player1;
         
     } else {
-        cout << player2->getName();
+        cout << player2->getName() << " wins.\n";
         return player2;
     }
 
