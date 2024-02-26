@@ -19,7 +19,7 @@ Player * Referee::refGame(Player * player1, Player * player2){
         cout << player1->getName();
         return player1;
         
-    } else if (move1 == 'S' && move2 == 'R'){
+    } else if (move1 == 'S' && move2 == 'P'){
         cout << player1->getName();
         return player1;
         
