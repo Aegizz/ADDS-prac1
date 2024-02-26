@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 Player * Referee::refGame(Player * player1, Player * player2){
-    char move1;
-    char move2;
+    char move1 = 0;
+    char move2 = 0;
     if (player1){
         move1 = player1->makeMove();
     }
