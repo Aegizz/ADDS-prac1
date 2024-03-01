@@ -1,12 +1,11 @@
 #include "Human.h"
 #include <iostream>
 #include <string>
-using namespace std;
 
 
 char Human::makeMove(){
-    cout << "Enter move: ";
-    cin >> move; 
+    std::cout << "Enter move: ";
+    std::cin >> move; 
     return move;
 }
 string Human::getName(){
